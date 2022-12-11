@@ -12,6 +12,7 @@ import { MainnavComponent } from './mainnav/mainnav.component';
 import { AddTaskComponent } from './add-task/add-task.component';
 import { AdmNavComponent } from './adm-nav/adm-nav.component';
 import { EmpNavComponent } from './emp-nav/emp-nav.component';
+import { ViewTaskComponent } from './view-task/view-task.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -40,7 +41,8 @@ const myRoute:Routes=[
     MainnavComponent,
     AddTaskComponent,
     AdmNavComponent,
-    EmpNavComponent
+    EmpNavComponent,
+    ViewTaskComponent
   ],
   imports: [
     BrowserModule,
