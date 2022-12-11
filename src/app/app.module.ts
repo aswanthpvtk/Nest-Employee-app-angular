@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { EmpLoginComponent } from './emp-login/emp-login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { EmpRegisComponent } from './emp-regis/emp-regis.component';
+import { MainnavComponent } from './mainnav/mainnav.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -27,7 +28,8 @@ const myRoute:Routes=[
     AppComponent,
     AdminLoginComponent,
     EmpLoginComponent,
-    EmpRegisComponent
+    EmpRegisComponent,
+    MainnavComponent
   ],
   imports: [
     BrowserModule,
