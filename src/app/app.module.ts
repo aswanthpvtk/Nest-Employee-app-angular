@@ -7,6 +7,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { FormsModule } from '@angular/forms';
 import { EmpLoginComponent } from './emp-login/emp-login.component';
 import { RouterModule, Routes } from '@angular/router';
+import { EmpRegisComponent } from './emp-regis/emp-regis.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -16,16 +17,17 @@ const myRoute:Routes=[
     path:"ul",
     component:EmpLoginComponent
   },
-  // {
-  //   path:"ur",
-  //   component:UserRegComponent
-  // }
+  {
+    path:"ur",
+    component:EmpRegisComponent
+  }
 ]
 @NgModule({
   declarations: [
     AppComponent,
     AdminLoginComponent,
-    EmpLoginComponent
+    EmpLoginComponent,
+    EmpRegisComponent
   ],
   imports: [
     BrowserModule,
