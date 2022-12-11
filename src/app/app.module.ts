@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { EmpRegisComponent } from './emp-regis/emp-regis.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { AddTaskComponent } from './add-task/add-task.component';
+import { AdmNavComponent } from './adm-nav/adm-nav.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -36,7 +37,8 @@ const myRoute:Routes=[
     EmpLoginComponent,
     EmpRegisComponent,
     MainnavComponent,
-    AddTaskComponent
+    AddTaskComponent,
+    AdmNavComponent
   ],
   imports: [
     BrowserModule,
