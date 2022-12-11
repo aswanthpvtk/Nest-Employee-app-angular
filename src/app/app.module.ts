@@ -13,6 +13,7 @@ import { AddTaskComponent } from './add-task/add-task.component';
 import { AdmNavComponent } from './adm-nav/adm-nav.component';
 import { EmpNavComponent } from './emp-nav/emp-nav.component';
 import { ViewTaskComponent } from './view-task/view-task.component';
+import { ViewTaskStsComponent } from './view-task-sts/view-task-sts.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -30,6 +31,14 @@ const myRoute:Routes=[
     path:"ts",
     component:AddTaskComponent
   },
+  {
+    path:"vt",
+    component:ViewTaskComponent
+  },
+  {
+    path:"avts",
+    component:ViewTaskStsComponent
+  },
   
 ]
 @NgModule({
@@ -42,7 +51,8 @@ const myRoute:Routes=[
     AddTaskComponent,
     AdmNavComponent,
     EmpNavComponent,
-    ViewTaskComponent
+    ViewTaskComponent,
+    ViewTaskStsComponent
   ],
   imports: [
     BrowserModule,
