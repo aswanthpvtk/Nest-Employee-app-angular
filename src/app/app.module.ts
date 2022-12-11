@@ -9,6 +9,7 @@ import { EmpLoginComponent } from './emp-login/emp-login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { EmpRegisComponent } from './emp-regis/emp-regis.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
+import { AddTaskComponent } from './add-task/add-task.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -21,6 +22,10 @@ const myRoute:Routes=[
   {
     path:"ur",
     component:EmpRegisComponent
+  },
+  {
+    path:"ts",
+    component:AddTaskComponent
   }
 ]
 @NgModule({
@@ -29,7 +34,8 @@ const myRoute:Routes=[
     AdminLoginComponent,
     EmpLoginComponent,
     EmpRegisComponent,
-    MainnavComponent
+    MainnavComponent,
+    AddTaskComponent
   ],
   imports: [
     BrowserModule,
