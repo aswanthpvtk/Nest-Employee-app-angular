@@ -26,7 +26,8 @@ const myRoute:Routes=[
   {
     path:"ts",
     component:AddTaskComponent
-  }
+  },
+  
 ]
 @NgModule({
   declarations: [
